@@ -12,3 +12,5 @@ scriptencoding utf-8
 function! Testfunc()
 	norm ifittetryne
 endfunction
+command! Pikkhue execute 'call Testfunc()'
+
